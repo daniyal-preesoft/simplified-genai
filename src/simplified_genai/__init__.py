@@ -1,5 +1,6 @@
 """simplified-genai: A streamlined, multi-provider Generative AI abstraction layer."""
 
+import utils.session
 from simplified_genai.exceptions.gen_ai_overloaded_error import GenAiOverloadedError
 from simplified_genai.interfaces.i_chat_session_service import IChatSessionService
 from simplified_genai.interfaces.i_chat_session_store import IChatSessionStore
